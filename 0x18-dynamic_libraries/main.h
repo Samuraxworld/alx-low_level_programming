@@ -22,4 +22,10 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
+void add(int a, int b);
+void sub(int a, int b);
+void mult(int a, int b);
+void div(int a, int b);
+void mod(int a, int b);
+
 #endif /* _MAIN_H_ */
